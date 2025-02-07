@@ -4,8 +4,8 @@
 
 **For testing the load balancing**
 
-**npm install -g artillery
+npm install -g artillery
 
-artillery quick --count 10 -n 20 http://localhost/**
+artillery quick --count 10 -n 20 http://localhost/
 
 

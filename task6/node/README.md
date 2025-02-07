@@ -1,9 +1,9 @@
-# Node Hello World
+**This task consists of docker-compose file for scaling the Node.js service and Nginx as a load balancer**
 
-Simple node.js app that servers "hello world"
+**commands to run the docker-compose file for running: docker-compose up -d --scale app=3**
 
-Great for testing simple deployments to the cloud
+**For testing the load balancing**
+**npm install -g artillery
+artillery quick --count 10 -n 20 http://localhost/**
 
-## Run It
 
-`npm start`
